@@ -16,7 +16,7 @@ class Database{
                 console.log("Erreur",err);
                 return;
             }
-            console.log('Connexion à la base de donnée')
+            console.log('Connexion réussi à la base de donnée')
         });
     }
     query(sql,val){
